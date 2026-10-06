@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 600px;
+  height: 600px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background: #ccc;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  background: white;
+}
+
+.grid-cell {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
